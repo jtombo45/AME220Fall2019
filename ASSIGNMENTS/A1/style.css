@@ -1,0 +1,41 @@
+.box-img-profile {
+
+	border-radius: 50%;
+	width: 250x;
+	height: 250px;
+  margin-right: 5em;
+  margin-left: 50em;
+  margin-top: 5em;
+}
+
+* {box-sizing: border-box;}
+.wrapper {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.wrapper > div {
+  border: 3px solid rgb(0,0,0);
+  background-color: rgba(245,250,251);
+  padding: 2em;
+  padding-left: 6em;
+  color: #d9480f;
+}.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-column: 1/ 4;
+  grid-row: 2;
+  border-radius: 5px;
+}
+.two {
+  grid-column: 1/4;
+  grid-row: 3 / 5;
+  border-radius: 5px;
+}
